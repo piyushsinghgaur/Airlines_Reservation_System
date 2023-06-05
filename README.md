@@ -1,4 +1,4 @@
-# Decibel Airlines Reservation System
+# Air Asia Airlines Reservation System
 An airplane reservation system developed with infinite lines of Java code compiled using Netbeans IDE. Perfectly combined with the handcrafted design graphic user interface. 
 
 ![Screenshot (16)](https://github.com/piyushsinghgaur/Airlines_Reservation_System/assets/96806312/ee80ee0c-d4b0-43a2-8de6-64c11820302d)

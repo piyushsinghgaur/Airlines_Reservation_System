@@ -1,0 +1,8 @@
+DECIBEL AIRLINES BOARDING PASS
+
+Seat :  B3
+Name :  Piyush singh
+Passport No. :  123456
+
+Please remember your data for flight cancellation. 
+© 2018 Decibel Airlines.

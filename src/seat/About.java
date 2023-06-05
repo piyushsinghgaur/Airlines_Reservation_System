@@ -33,7 +33,6 @@ public class About extends javax.swing.JFrame {
         Header = new javax.swing.JPanel();
         MainLogo = new javax.swing.JLabel();
         WelcomeText = new javax.swing.JLabel();
-        OwnerName2 = new javax.swing.JLabel();
         OwnerName3 = new javax.swing.JLabel();
         OwnerName5 = new javax.swing.JLabel();
         OwnerName6 = new javax.swing.JLabel();
@@ -60,22 +59,16 @@ public class About extends javax.swing.JFrame {
         WelcomeText.setForeground(new java.awt.Color(255, 255, 255));
         Header.add(WelcomeText, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 20, 40));
 
-        OwnerName2.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        OwnerName2.setForeground(new java.awt.Color(255, 255, 255));
-        OwnerName2.setText("Chulalongkorn University");
-        Header.add(OwnerName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 210, 20));
-
         OwnerName3.setBackground(new java.awt.Color(204, 204, 204));
         OwnerName3.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
         OwnerName3.setForeground(new java.awt.Color(255, 255, 255));
-        OwnerName3.setText("© 2018 Decibel Airlines.");
+        OwnerName3.setText("© Air Asia Airlines.");
         Header.add(OwnerName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 260, -1));
 
         OwnerName5.setBackground(new java.awt.Color(204, 204, 204));
         OwnerName5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         OwnerName5.setForeground(new java.awt.Color(255, 255, 255));
-        OwnerName5.setText("Decibel Airlines Reservation System");
+        OwnerName5.setText("Air Asia Airlines Reservation System");
         Header.add(OwnerName5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, 330, -1));
 
         OwnerName6.setBackground(new java.awt.Color(204, 204, 204));
@@ -105,13 +98,13 @@ public class About extends javax.swing.JFrame {
         OwnerName10.setBackground(new java.awt.Color(204, 204, 204));
         OwnerName10.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         OwnerName10.setForeground(new java.awt.Color(255, 255, 255));
-        OwnerName10.setText("Wutipat Khamnuansin");
+        OwnerName10.setText("Piyush Singh Gaur");
         Header.add(OwnerName10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 190, 20));
 
         OwnerName11.setBackground(new java.awt.Color(204, 204, 204));
         OwnerName11.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         OwnerName11.setForeground(new java.awt.Color(255, 255, 255));
-        OwnerName11.setText("6033657523");
+        OwnerName11.setText("8400222863");
         Header.add(OwnerName11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 110, 20));
 
         OwnerName12.setBackground(new java.awt.Color(204, 204, 204));
@@ -182,7 +175,6 @@ public class About extends javax.swing.JFrame {
     private javax.swing.JLabel OwnerName10;
     private javax.swing.JLabel OwnerName11;
     private javax.swing.JLabel OwnerName12;
-    private javax.swing.JLabel OwnerName2;
     private javax.swing.JLabel OwnerName3;
     private javax.swing.JLabel OwnerName5;
     private javax.swing.JLabel OwnerName6;

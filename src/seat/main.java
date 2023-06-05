@@ -140,10 +140,9 @@ public class main extends javax.swing.JFrame {
         ReservedText3 = new javax.swing.JLabel();
         AboutText = new javax.swing.JLabel();
         MainLogo2 = new javax.swing.JLabel();
-        OwnerName2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Decibel Airlines Reservation System");
+        setTitle("Air Asia  Airlines Reservation System");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Header.setBackground(new java.awt.Color(207, 0, 15));
@@ -205,7 +204,6 @@ public class main extends javax.swing.JFrame {
         Main.add(VerticalSeperator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 40, 10, 620));
 
         DepartHeader.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader.setText("Select Seat");
         Main.add(DepartHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 30, 200, 50));
 
@@ -235,13 +233,11 @@ public class main extends javax.swing.JFrame {
         Main.add(DestinationCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, -1, 35));
 
         PlaneIcon.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        PlaneIcon.setForeground(new java.awt.Color(0, 0, 0));
         PlaneIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/black-plane.png"))); // NOI18N
         Main.add(PlaneIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 40, -1));
         Main.add(HorizontalSeperator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 250, 10));
 
         WorkingModeHeader.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        WorkingModeHeader.setForeground(new java.awt.Color(0, 0, 0));
         WorkingModeHeader.setText("Booking");
         Main.add(WorkingModeHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, 170, -1));
 
@@ -279,12 +275,10 @@ public class main extends javax.swing.JFrame {
         Main.add(ViewAllDataButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 540, 260, 50));
 
         AvailableTextShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        AvailableTextShow.setForeground(new java.awt.Color(0, 0, 0));
         AvailableTextShow.setText("XX");
         Main.add(AvailableTextShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 500, 50, -1));
 
         ReservedTextShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        ReservedTextShow.setForeground(new java.awt.Color(0, 0, 0));
         ReservedTextShow.setText("YY");
         Main.add(ReservedTextShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 500, 50, -1));
 
@@ -778,7 +772,6 @@ public class main extends javax.swing.JFrame {
         LeftExit.setBackground(new java.awt.Color(52, 79, 88));
 
         jLabel13.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/exit.png"))); // NOI18N
 
         javax.swing.GroupLayout LeftExitLayout = new javax.swing.GroupLayout(LeftExit);
@@ -788,7 +781,7 @@ public class main extends javax.swing.JFrame {
             .addGroup(LeftExitLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel13)
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         LeftExitLayout.setVerticalGroup(
             LeftExitLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -803,7 +796,6 @@ public class main extends javax.swing.JFrame {
         RightExit.setBackground(new java.awt.Color(52, 79, 88));
 
         jLabel27.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/exit.png"))); // NOI18N
 
         javax.swing.GroupLayout RightExitLayout = new javax.swing.GroupLayout(RightExit);
@@ -811,7 +803,7 @@ public class main extends javax.swing.JFrame {
         RightExitLayout.setHorizontalGroup(
             RightExitLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RightExitLayout.createSequentialGroup()
-                .addContainerGap(8, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel27)
                 .addContainerGap())
         );
@@ -826,7 +818,6 @@ public class main extends javax.swing.JFrame {
         Main.add(RightExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 310, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/toilet.png"))); // NOI18N
 
         javax.swing.GroupLayout ToiletLayout = new javax.swing.GroupLayout(Toilet);
@@ -843,13 +834,12 @@ public class main extends javax.swing.JFrame {
             .addGroup(ToiletLayout.createSequentialGroup()
                 .addGap(9, 9, 9)
                 .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Main.add(Toilet, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 570, 180, 50));
 
         jLabel15.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/toilet.png"))); // NOI18N
 
         javax.swing.GroupLayout Toilet1Layout = new javax.swing.GroupLayout(Toilet1);
@@ -866,7 +856,7 @@ public class main extends javax.swing.JFrame {
             .addGroup(Toilet1Layout.createSequentialGroup()
                 .addGap(9, 9, 9)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Main.add(Toilet1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 570, -1, 50));
@@ -902,7 +892,6 @@ public class main extends javax.swing.JFrame {
         Main.add(AvailableText1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 480, 90, 30));
 
         DepartHeader1.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader1.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader1.setText("Summary");
         Main.add(DepartHeader1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 180, 60));
 
@@ -927,7 +916,6 @@ public class main extends javax.swing.JFrame {
         Main.add(FlightNo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, -1, 30));
 
         DepartHeader2.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader2.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader2.setText("Depart");
         Main.add(DepartHeader2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 140, 50));
 
@@ -956,12 +944,6 @@ public class main extends javax.swing.JFrame {
             }
         });
         Main.add(MainLogo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 620, 30, 70));
-
-        OwnerName2.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName2.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        OwnerName2.setForeground(new java.awt.Color(102, 102, 102));
-        OwnerName2.setText("© 2018 Decibel Airlines.");
-        Main.add(OwnerName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 140, 10));
 
         getContentPane().add(Main, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 910, 690));
 
@@ -1282,7 +1264,6 @@ public class main extends javax.swing.JFrame {
     private javax.swing.JLabel OriginCountry1;
     private javax.swing.JLabel OriginCountry2;
     private javax.swing.JLabel OwnerName;
-    private javax.swing.JLabel OwnerName2;
     private javax.swing.JLabel PlaneIcon;
     private javax.swing.JLabel ReservedText3;
     private javax.swing.JLabel ReservedTextShow;

@@ -48,7 +48,6 @@ public class ShowData extends javax.swing.JFrame {
         CloseButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         Table = new javax.swing.JTable();
-        OwnerName1 = new javax.swing.JLabel();
         DepartHeader3 = new javax.swing.JLabel();
         AvailableText1 = new javax.swing.JLabel();
         AvailableTextShow = new javax.swing.JLabel();
@@ -62,11 +61,10 @@ public class ShowData extends javax.swing.JFrame {
         FlightNo.setText("FD 3419");
 
         FlightNoHeader.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        FlightNoHeader.setForeground(new java.awt.Color(0, 0, 0));
         FlightNoHeader.setText("FLIGHT NO.");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Decibel Airlines Reservation System");
+        setTitle("Airlines Reservation System");
         setBackground(new java.awt.Color(255, 255, 255));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -160,14 +158,7 @@ public class ShowData extends javax.swing.JFrame {
 
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 830, 470));
 
-        OwnerName1.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        OwnerName1.setForeground(new java.awt.Color(102, 102, 102));
-        OwnerName1.setText("© 2018 Decibel Airlines.");
-        jPanel2.add(OwnerName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 210, -1));
-
         DepartHeader3.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader3.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader3.setText("Flight Summary");
         jPanel2.add(DepartHeader3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 420, 50));
 
@@ -177,12 +168,10 @@ public class ShowData extends javax.swing.JFrame {
         jPanel2.add(AvailableText1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 30, 90, 30));
 
         AvailableTextShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        AvailableTextShow.setForeground(new java.awt.Color(0, 0, 0));
         AvailableTextShow.setText("XX");
         jPanel2.add(AvailableTextShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 50, 50, -1));
 
         ReservedTextShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        ReservedTextShow.setForeground(new java.awt.Color(0, 0, 0));
         ReservedTextShow.setText("YY");
         jPanel2.add(ReservedTextShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 50, 50, -1));
 
@@ -197,7 +186,6 @@ public class ShowData extends javax.swing.JFrame {
         jPanel2.add(AvailableText2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 30, 90, 30));
 
         AvailableTextShow1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        AvailableTextShow1.setForeground(new java.awt.Color(0, 0, 0));
         AvailableTextShow1.setText("QF8");
         jPanel2.add(AvailableTextShow1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 50, 50, -1));
 
@@ -259,7 +247,6 @@ public class ShowData extends javax.swing.JFrame {
     private javax.swing.JPanel Header;
     private javax.swing.JLabel MainLogo4;
     private javax.swing.JLabel MainLogo5;
-    private javax.swing.JLabel OwnerName1;
     private javax.swing.JLabel ReservedText3;
     private javax.swing.JLabel ReservedTextShow;
     private javax.swing.JTable Table;

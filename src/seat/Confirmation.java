@@ -68,7 +68,6 @@ public class Confirmation extends javax.swing.JFrame {
         FlightNoHeader1 = new javax.swing.JLabel();
         PrintButton = new javax.swing.JButton();
         CloseButton = new javax.swing.JButton();
-        OwnerName1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         SeatTextShow = new javax.swing.JLabel();
         FlightNoHeader12 = new javax.swing.JLabel();
@@ -104,7 +103,7 @@ public class Confirmation extends javax.swing.JFrame {
         MainLogo5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Decibel Airlines Reservation System");
+        setTitle("Air Asia Airlines Reservation System");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Main.setBackground(new java.awt.Color(255, 255, 255));
@@ -117,17 +116,14 @@ public class Confirmation extends javax.swing.JFrame {
         Main.add(OwnerName, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 340, -1));
 
         FirstNameShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        FirstNameShow.setForeground(new java.awt.Color(0, 0, 0));
         FirstNameShow.setText("XXXXXX");
         Main.add(FirstNameShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, 380, 40));
 
         LastNameShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        LastNameShow.setForeground(new java.awt.Color(0, 0, 0));
         LastNameShow.setText("XXXXX");
         Main.add(LastNameShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 220, 400, 40));
 
         PassportNoShow.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        PassportNoShow.setForeground(new java.awt.Color(0, 0, 0));
         PassportNoShow.setText("XXXXXX");
         Main.add(PassportNoShow, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 390, 40));
 
@@ -157,12 +153,6 @@ public class Confirmation extends javax.swing.JFrame {
         });
         Main.add(CloseButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 410, 260, 50));
 
-        OwnerName1.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        OwnerName1.setForeground(new java.awt.Color(102, 102, 102));
-        OwnerName1.setText("© 2018 Decibel Airlines.");
-        Main.add(OwnerName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 490, 210, -1));
-
         jPanel1.setBackground(new java.awt.Color(207, 0, 15));
         jPanel1.setForeground(new java.awt.Color(207, 0, 15));
 
@@ -184,7 +174,7 @@ public class Confirmation extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(SeatTextShow, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(10, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Main.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 210, 90, 50));
@@ -235,7 +225,6 @@ public class Confirmation extends javax.swing.JFrame {
         Main.add(DestinationCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 70, -1, 35));
 
         PlaneIcon.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        PlaneIcon.setForeground(new java.awt.Color(0, 0, 0));
         PlaneIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/black-plane.png"))); // NOI18N
         Main.add(PlaneIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 70, 40, -1));
 
@@ -280,7 +269,6 @@ public class Confirmation extends javax.swing.JFrame {
         Main.add(FlightNoHeader17, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 210, 70, 20));
 
         DepartHeader3.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader3.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader3.setText("Booking Summary");
         Main.add(DepartHeader3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 340, 50));
 
@@ -428,7 +416,6 @@ public class Confirmation extends javax.swing.JFrame {
     private javax.swing.JLabel OriginCountry4;
     private javax.swing.JLabel OriginCountry5;
     private javax.swing.JLabel OwnerName;
-    private javax.swing.JLabel OwnerName1;
     private javax.swing.JLabel PassportNoShow;
     private javax.swing.JLabel PlaneIcon;
     private javax.swing.JButton PrintButton;

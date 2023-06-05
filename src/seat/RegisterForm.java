@@ -47,7 +47,6 @@ public class RegisterForm extends javax.swing.JFrame {
         ContinueButton = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         SeatTextShow = new javax.swing.JLabel();
-        OwnerName1 = new javax.swing.JLabel();
         OwnerName2 = new javax.swing.JLabel();
         OriginCountry = new javax.swing.JLabel();
         OriginCode = new javax.swing.JLabel();
@@ -83,7 +82,7 @@ public class RegisterForm extends javax.swing.JFrame {
         MainLogo10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Decibel Airlines Reservation System");
+        setTitle("Air Asia Airlines Reservation System");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Main.setBackground(new java.awt.Color(255, 255, 255));
@@ -108,7 +107,6 @@ public class RegisterForm extends javax.swing.JFrame {
         Main.add(FirstNameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 390, 40));
 
         LastNameText.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        LastNameText.setForeground(new java.awt.Color(0, 0, 0));
         LastNameText.setText("Last Name");
         Main.add(LastNameText, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, -1, 50));
 
@@ -116,7 +114,6 @@ public class RegisterForm extends javax.swing.JFrame {
         Main.add(LastNameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, 390, 40));
 
         PassportNoText.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        PassportNoText.setForeground(new java.awt.Color(0, 0, 0));
         PassportNoText.setText("Passport No.");
         Main.add(PassportNoText, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, 50));
 
@@ -164,12 +161,6 @@ public class RegisterForm extends javax.swing.JFrame {
 
         Main.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 210, 100, 50));
 
-        OwnerName1.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName1.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        OwnerName1.setForeground(new java.awt.Color(102, 102, 102));
-        OwnerName1.setText("© 2018 Decibel Airlines.");
-        Main.add(OwnerName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 410, 210, -1));
-
         OwnerName2.setBackground(new java.awt.Color(204, 204, 204));
         OwnerName2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         OwnerName2.setForeground(new java.awt.Color(102, 102, 102));
@@ -197,7 +188,6 @@ public class RegisterForm extends javax.swing.JFrame {
         Main.add(DestinationCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 70, -1, 35));
 
         PlaneIcon.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        PlaneIcon.setForeground(new java.awt.Color(0, 0, 0));
         PlaneIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/black-plane.png"))); // NOI18N
         Main.add(PlaneIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 70, 40, -1));
         Main.add(HorizontalSeperator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 300, 280, 10));
@@ -238,7 +228,6 @@ public class RegisterForm extends javax.swing.JFrame {
         Main.add(FlightNo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 160, -1, 30));
 
         DepartHeader3.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader3.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader3.setText("Passenger Details");
         Main.add(DepartHeader3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 340, 50));
 
@@ -273,7 +262,6 @@ public class RegisterForm extends javax.swing.JFrame {
         Main.add(BackButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 330, 100, 60));
 
         FirstNameText1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        FirstNameText1.setForeground(new java.awt.Color(0, 0, 0));
         FirstNameText1.setText("First Name");
         Main.add(FirstNameText1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, -1, 50));
 
@@ -311,7 +299,6 @@ public class RegisterForm extends javax.swing.JFrame {
 
         MainLogo4.setFont(new java.awt.Font("Dialog", 1, 42)); // NOI18N
         MainLogo4.setForeground(new java.awt.Color(255, 255, 255));
-        MainLogo4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seat/HeaderMainLogoTextNew.png"))); // NOI18N
         Header.add(MainLogo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 190, 100));
 
         MainLogo5.setFont(new java.awt.Font("Dialog", 1, 42)); // NOI18N
@@ -463,7 +450,6 @@ public class RegisterForm extends javax.swing.JFrame {
     private javax.swing.JLabel OriginCountry;
     private javax.swing.JLabel OriginCountry1;
     private javax.swing.JLabel OriginCountry2;
-    private javax.swing.JLabel OwnerName1;
     private javax.swing.JLabel OwnerName2;
     private javax.swing.JTextField PassportNoField;
     private javax.swing.JLabel PassportNoText;

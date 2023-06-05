@@ -57,7 +57,6 @@ public class Cancellation extends javax.swing.JFrame {
         PassengerNameText = new javax.swing.JLabel();
         ContinueButton = new javax.swing.JButton();
         WarningText1 = new javax.swing.JLabel();
-        OwnerName2 = new javax.swing.JLabel();
         DepartHeader3 = new javax.swing.JLabel();
         OwnerName3 = new javax.swing.JLabel();
         CloseButton = new javax.swing.JButton();
@@ -75,7 +74,7 @@ public class Cancellation extends javax.swing.JFrame {
         MainLogo5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Decibel Airlines Reservation System");
+        setTitle("Air Asia Airlines Reservation System");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -114,14 +113,7 @@ public class Cancellation extends javax.swing.JFrame {
         WarningText1.setForeground(new java.awt.Color(207, 0, 15));
         jPanel1.add(WarningText1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, 240, 40));
 
-        OwnerName2.setBackground(new java.awt.Color(204, 204, 204));
-        OwnerName2.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
-        OwnerName2.setForeground(new java.awt.Color(102, 102, 102));
-        OwnerName2.setText("© 2018 Decibel Airlines.");
-        jPanel1.add(OwnerName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 210, -1));
-
         DepartHeader3.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        DepartHeader3.setForeground(new java.awt.Color(0, 0, 0));
         DepartHeader3.setText("Booking Cancellation");
         jPanel1.add(DepartHeader3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 390, 50));
 
@@ -142,7 +134,6 @@ public class Cancellation extends javax.swing.JFrame {
         jPanel1.add(CloseButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 250, 130, 60));
 
         FirstNameText3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        FirstNameText3.setForeground(new java.awt.Color(0, 0, 0));
         FirstNameText3.setText("Enter passenger's passport no.");
         jPanel1.add(FirstNameText3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 300, 30));
 
@@ -172,7 +163,7 @@ public class Cancellation extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(SeatTextShow, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(9, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 90, 50));
@@ -294,7 +285,6 @@ public class Cancellation extends javax.swing.JFrame {
     private javax.swing.JLabel MainLogo4;
     private javax.swing.JLabel MainLogo5;
     private javax.swing.JLabel OwnerName;
-    private javax.swing.JLabel OwnerName2;
     private javax.swing.JLabel OwnerName3;
     private javax.swing.JLabel PassengerFirstNameTextShow;
     private javax.swing.JLabel PassengerLastNameTextShow;
